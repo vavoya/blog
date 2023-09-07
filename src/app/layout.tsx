@@ -35,6 +35,6 @@ export default function RootLayout({
   )
 }
 
-export const cls = (...classnames: string[]) => {
+const cls = (...classnames: string[]) => {
     return classnames.join(" ");
 };
